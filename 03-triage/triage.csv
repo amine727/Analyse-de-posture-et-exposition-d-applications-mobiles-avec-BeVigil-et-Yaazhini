@@ -1,0 +1,10 @@
+FIND-001,BeVigil,Stockage données sensibles,SharedPreferences détecté,High,Medium,Fuite données utilisateur,Chiffrer les données,MASVS-STORAGE,Confirmé
+FIND-002,BeVigil,Logs sensibles,Logs exposés,High,Medium,Fuite d'informations,Supprimer logs,MASVS-STORAGE,Confirmé
+FIND-003,BeVigil,HTTP non sécurisé,HTTP détecté,Medium,Medium,Interception MITM,Utiliser HTTPS,MASVS-NETWORK,Confirmé
+FIND-004,BeVigil,Activity exportée,Component exported,Medium,Low,Accès non autorisé,Restreindre permissions,MASVS-PLATFORM,Confirmé
+FIND-005,BeVigil,Secret exposé,Clé détectée,Low,Low,Accès backend,Sécuriser secrets,MASVS-STORAGE,Confirmé
+FIND-006,Yaazhini,SDK obsolète,Min SDK 15,High,Medium,Vulnérabilités connues,Mettre à jour SDK,MASVS-RESILIENCE,Confirmé
+FIND-007,Yaazhini,Stockage non sécurisé,SharedPreferences,High,High,Fuite données sensibles,Chiffrement,MASVS-STORAGE,Confirmé
+FIND-008,Yaazhini,Logs sensibles,Logs présents,High,Medium,Fuite info,Supprimer logs,MASVS-STORAGE,Confirmé
+FIND-009,Yaazhini,HTTP non sécurisé,HTTP utilisé,Medium,Medium,MITM,HTTPS obligatoire,MASVS-NETWORK,Confirmé
+FIND-010,Yaazhini,Composants exposés,Activity exportée,Medium,Low,Accès externe,Limiter accès,MASVS-PLATFORM,Confirmé

@@ -1,0 +1,22 @@
+Date: 2026-04-20
+Analyste: KABBAJ Amine
+
+Cible: InsecureBankv2 (application Android vulnérable)
+Artefact: InsecureBankv2.apk
+
+Provenance: Application pédagogique OWASP / TP sécurité mobile
+
+Hash (SHA-256): B18AF2A0E44D7634BBCDF93664D9C78A2695E050393FCFBB5E8B91F902D194A4
+
+Package Name: com.android.insecurebankv2
+
+Outils utilisés:
+
+* BeVigil: Reconnaissance externe (OSINT mobile)
+* Yaazhini: Analyse statique de l’APK
+
+Environnement:
+
+* OS: Windows 11
+* Émulateur Android
+* ADB (Android Debug Bridge)
